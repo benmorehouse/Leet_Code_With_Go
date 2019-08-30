@@ -1,0 +1,10 @@
+---
+default:
+        cmd: | #!/usr/bin/env bash
+
+
+                clear
+                cd ~/code/interview_practice/reverse_num
+
+                go build  -o /tmp/interview_practice/reverse_num .
+                /tmp/interview_practice/reverse_num

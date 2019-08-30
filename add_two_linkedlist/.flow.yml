@@ -1,0 +1,10 @@
+---
+default:
+        cmd: | #!/usr/bin/env bash
+
+
+                clear
+                cd ~/code/interview_practice/add_two_linkedlist
+
+                go build  -o /tmp/interview_practice/add_two_linkedlist .
+                /tmp/interview_practice/add_two_linkedlist

@@ -1,0 +1,10 @@
+---
+default:
+        cmd: | #!/usr/bin/env bash
+
+
+                clear
+                cd ~/code/interview_practice/roman
+
+                go build  -o /tmp/interview_practice/roman .
+                /tmp/interview_practice/roman

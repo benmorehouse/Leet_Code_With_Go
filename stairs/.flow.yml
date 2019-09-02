@@ -1,0 +1,9 @@
+---
+default:
+        cmd: | #!/usr/bin/env bash
+
+
+                clear
+                cd ~/code/interview_practice/stairs
+                clang++ -g main.cpp -o cs
+                ./cs

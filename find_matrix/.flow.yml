@@ -1,0 +1,13 @@
+---
+default:
+        cmd: | #!/usr/bin/env bash
+
+
+                clear
+                cd ~/code/interview_practice/find_matrix
+
+                go build  -o /tmp/interview_practice/find_matrix .
+                /tmp/interview_practice/find_matrix
+
+
+

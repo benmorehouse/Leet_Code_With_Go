@@ -5,6 +5,5 @@ default:
 
                 clear
                 cd ~/code/interview_practice/two_sum
-
-                go build  -o /tmp/interview_practice/two_sum .
-                /tmp/interview_practice/two_sum
+                go build 
+                ./two_sum

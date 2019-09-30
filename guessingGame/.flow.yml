@@ -1,0 +1,13 @@
+---
+default:
+        cmd: | #!/usr/bin/env bash
+
+
+                clear
+                cd ~/repositories/interview_practice/guessingGame
+
+                go build  -o /tmp/interview_practice/guessingGame .
+                /tmp/interview_practice/guessingGame
+
+
+
